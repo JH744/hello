@@ -4,4 +4,26 @@ class Person{
 	public void sayHello(){
 	System.out.println("hello"+name);
 	}
+
+	public void setName(name){
+		this.name = name;
+	}
+
+	public void setAge(age){
+		this.age = age;
+	}
+
+	public int getAge(){
+		return age;
+	}
+
+	public String getName(){
+		return name;
+	}
+
+
+
+
+
+
 }
